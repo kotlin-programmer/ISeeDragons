@@ -46,17 +46,9 @@ public class ISeeDragonsTransformer implements IClassTransformer {
     public ISeeDragonsTransformer() {
         ISD.logger.info("Adding Patchers");
 
-        addPatcher(PatchDragonItemLag.class);
-        addPatcher(PatchIceAndFireAxes.class);
         addPatcher(PatchLogSpam.class);
-        addPatcher(PatchMyrmexEggDupe.class);
         addPatcher(PatchNukeAdvancements.class);
-        addPatcher(PatchSerpentSpawning.class);
-        addPatcher(PatchDragonDismount.class);
-        addPatcher(HookStructureGenerator.class);
-        addPatcher(HookGorgonHead.class);
         addPatcher(PatchMmmMmm.class);
-        addPatcher(PatchStatueDupe.class);
     }
 
     @Override
